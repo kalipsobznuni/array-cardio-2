@@ -15,7 +15,7 @@ const comments = [
   { text: 'Nice Nice Nice!', id: 542328 }
 ];
 
-// some is true when it's true for at least for one element
+// some is true when it's true for at least one element
 const isAdult = people.some(person =>
   ((new Date()).getFullYear()) - person.year >=19);
 console.log({isAdult});
